@@ -8,7 +8,7 @@ const MovieList =()=> {
     return (
         <div>
             {
-            movies[0    ].map(movie=>(
+            movies[0].map(movie=>(
             <Movie name={movie.name} price={movie.price} key={movie.id}/>
                 ))
             }
